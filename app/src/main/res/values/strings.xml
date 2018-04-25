@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">ZagrebTourApp</string>
+
+    <!-- Category name for phrases [CHAR LIMIT=20] -->
+    <string name="category_food">Food</string>
+
+    <!-- Category name for the vocabulary words for colors [CHAR LIMIT=20] -->
+    <string name="category_places">Places</string>
+
+    <!-- Category name for the vocabulary words for numbers [CHAR LIMIT=20] -->
+    <string name="category_reside">Reside</string>
+
+    <string name="category_entertainment">Entertainment</string>
+    <string name="place_location">Location</string>
+
+    <string name="zrno_name">Zrno</string>
+    <string name="vege1">Vege</string>
+    <string name="location1">https://www.google.com/maps/place/Meduli%C4%87eva+ul.+20,+10000,+Zagreb/@45.8110908,15.9645449,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6e478a624b1:0xe994e71c998e1776!8m2!3d45.8110871!4d15.9667336</string>
+    <string name="web1">http://www.zrnobiobistro.hr/?gclid=CjwKCAjwzoDXBRBbEiwAGZRIeBMxXkSVdGYImw7wnQkXIS29De8wjx_2WK5orfh6WyOBNHrPj8rfnBoCTyIQAvD_BwE</string>
+
+    <string name="green_point">Green Point</string>
+    <string name="vege2">Vege</string>
+    <string name="location2">https://www.google.com/maps/place/Var%C5%A1avska+ul.+10,+10000,+Zagreb/@45.8119947,15.970209,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fcc37403a7:0xa2ccfc67a245d89d!8m2!3d45.811991!4d15.9723977  </string>
+    <string name="web2">http://green-point.hr/hr/ </string>
+
+    <string name="hnk">HNK</string>
+    <string name="theater1">Theater</string>
+    <string name="location22">https://www.google.com/maps/place/Trg+Republike+Hrvatske+15,+10000,+Zagreb/@45.8096435,15.9678209,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fb4bbdeb6b:0x6f71d6cc4d59edf9!8m2!3d45.8096398!4d15.9700097  </string>
+     <string name="web22">https://www.hnk.hr/hr/</string>
+
+    <string name="westin_reside">Westin</string>
+    <string name="hotel1">Hotel</string>
+    <string name="location33">https://www.google.com/maps/search/Krsnjavoga+1,+Zagreb/@45.8073259,15.9632643,17z/data=!3m1!4b1</string>
+    <string name="web33">http://www.westinzagreb.com/</string>
+
+
+    <string name="alcatraz">Alcatraz</string>
+    <string name="bar1">Bar</string>
+    <string name="location44">https://www.google.com/maps/place/Preradovi%C4%87eva+ul.+12,+10000,+Zagreb/@45.8106735,15.9720321,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fc64c51c3d:0x92a7166c3b2b2496!8m2!3d45.8106698!4d15.9742208</string>
+    <string name="web44">https://www.facebook.com/CaffeBarAlcatrazZagreb/</string>
+
+</resources>
