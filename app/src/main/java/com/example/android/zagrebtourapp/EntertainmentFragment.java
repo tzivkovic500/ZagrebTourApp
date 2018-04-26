@@ -29,6 +29,7 @@ public class EntertainmentFragment extends Fragment {
 
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
+        tour.add(new Tour(R.drawable.alcatraz, R.string.alcatraz, R.string.bar1, String.valueOf(R.string.location44),String.valueOf(R.string.web44)));
 
 
 

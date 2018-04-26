@@ -50,12 +50,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
                     R.layout.list_item, parent, false);
         }
 
-        // Set the theme color for the list item
-        View textContainer = listItemView.findViewById(R.id.text_container);
-        // Find the color that the resource ID maps to
-        int color = ContextCompat.getColor(getContext(), mColorResourceId);
-        // Set the background color of the text container View
-        textContainer.setBackgroundColor(color);
+
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
         // the ListView.
@@ -125,6 +120,13 @@ public class TourAdapter extends ArrayAdapter<Tour> {
                 getContext().startActivity(i);
             }
         });
+
+        // Set the theme color for the list item
+        View textContainer = listItemView.findViewById(R.id.text_container);
+        // Find the color that the resource ID maps to
+        int color = ContextCompat.getColor(getContext(), mColorResourceId);
+        // Set the background color of the text container View
+        textContainer.setBackgroundColor(color);
 
 
         return listItemView;

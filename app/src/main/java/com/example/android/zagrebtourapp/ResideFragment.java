@@ -29,6 +29,7 @@ public class ResideFragment extends Fragment {
 
         // Create a list of words
         final ArrayList<Tour> tour = new ArrayList<Tour>();
+        tour.add(new Tour(R.drawable.westin, R.string.westin_reside, R.string.hotel1, String.valueOf(R.string.location33),String.valueOf(R.string.web33)));
 
 
 

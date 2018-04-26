@@ -28,6 +28,9 @@ public class FoodFragment extends Fragment {
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
 
+        tour.add(new Tour(R.drawable.zrno, R.string.zrno_name, R.string.vege1, String.valueOf(R.string.location1),String.valueOf(R.string.web1)));
+        tour.add(new Tour(R.drawable.green_point, R.string.green_point, R.string.vege2, String.valueOf(R.string.location2),String.valueOf(R.string.web2)));
+
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The

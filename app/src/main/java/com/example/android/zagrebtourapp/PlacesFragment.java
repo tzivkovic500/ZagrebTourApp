@@ -28,6 +28,7 @@ public class PlacesFragment extends Fragment {
 
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
+        tour.add(new Tour(R.drawable.hnk, R.string.hnk, R.string.theater1, String.valueOf(R.string.location22),String.valueOf(R.string.web22)));
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Word}s. The
