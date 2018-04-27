@@ -29,7 +29,10 @@ public class PlacesFragment extends Fragment {
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour(R.drawable.hnk, R.string.hnk, R.string.theater1, String.valueOf(R.string.location22),String.valueOf(R.string.web22)));
-
+        tour.add(new Tour(R.drawable.art, R.string.art, R.string.museum1, String.valueOf(R.string.location23),String.valueOf(R.string.web23)));
+        tour.add(new Tour(R.drawable.mimara, R.string.mimara, R.string.museum2, String.valueOf(R.string.location24),String.valueOf(R.string.web24)));
+        tour.add(new Tour(R.drawable.arhiv, R.string.arhiv, R.string.arhiv1, String.valueOf(R.string.location25),String.valueOf(R.string.web25)));
+        tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.garden1, String.valueOf(R.string.location26),String.valueOf(R.string.web26)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

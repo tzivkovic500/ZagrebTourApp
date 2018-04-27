@@ -28,10 +28,11 @@ public class FoodFragment extends Fragment {
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
 
-        tour.add(new Tour(R.drawable.zrno, R.string.zrno_name, R.string.vege1, String.valueOf(R.string.location1),String.valueOf(R.string.web1)));
-        tour.add(new Tour(R.drawable.green_point, R.string.green_point, R.string.vege2, String.valueOf(R.string.location2),String.valueOf(R.string.web2)));
-
-
+        tour.add(new Tour(R.drawable.zrno, R.string.zrno_name, R.string.vegan1, String.valueOf(R.string.location1),String.valueOf(R.string.web1)));
+        tour.add(new Tour(R.drawable.green_point, R.string.green_point, R.string.vegan2, String.valueOf(R.string.location2),String.valueOf(R.string.web2)));
+        tour.add(new Tour(R.drawable.nishta, R.string.nishta, R.string.vegan3, String.valueOf(R.string.location3),String.valueOf(R.string.web3)));
+        tour.add(new Tour(R.drawable.vegehop, R.string.vegehop, R.string.vegan4, String.valueOf(R.string.location4),String.valueOf(R.string.web4)));
+        tour.add(new Tour(R.drawable.vinodol, R.string.vinodol, R.string.mediterranean, String.valueOf(R.string.location5),String.valueOf(R.string.web5)));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

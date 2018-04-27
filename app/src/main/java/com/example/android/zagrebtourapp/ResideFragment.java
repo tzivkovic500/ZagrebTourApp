@@ -30,7 +30,10 @@ public class ResideFragment extends Fragment {
         // Create a list of words
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour(R.drawable.westin, R.string.westin_reside, R.string.hotel1, String.valueOf(R.string.location33),String.valueOf(R.string.web33)));
-
+        tour.add(new Tour(R.drawable.dubrovnik, R.string.dubrovnik, R.string.hotel2, String.valueOf(R.string.location34),String.valueOf(R.string.web34)));
+        tour.add(new Tour(R.drawable.esplanada, R.string.esplanada, R.string.hotel3, String.valueOf(R.string.location35),String.valueOf(R.string.web35)));
+        tour.add(new Tour(R.drawable.sheraton, R.string.sheraton, R.string.hotel4, String.valueOf(R.string.location36),String.valueOf(R.string.web36)));
+        tour.add(new Tour(R.drawable.gardenh, R.string.gardenh, R.string.hotel5, String.valueOf(R.string.location37),String.valueOf(R.string.web37)));
 
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The

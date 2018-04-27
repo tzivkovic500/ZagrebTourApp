@@ -4,6 +4,7 @@ package com.example.android.zagrebtourapp;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -15,6 +16,8 @@ import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import java.util.ArrayList;
+
+import static android.support.v4.content.ContextCompat.startActivity;
 
 /**
  * Created by Tea on 24.3.2018..
@@ -107,9 +110,13 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
+               /*Intent i = new Intent(Intent.ACTION_VIEW);
                 i.setData(Uri.parse(currentTour.getLocationId()));
-                getContext().startActivity(i);
+                getContext().startActivity(i);*/
+               Uri gmmIntentUri = Uri.parse(currentTour.getLocationId());
+               Intent mapIntent = new Intent (Intent.ACTION_VIEW, gmmIntentUri);
+                mapIntent.setPackage("com.google.android.apps.maps");
+                startActivity(getContext(),mapIntent, Bundle.EMPTY);
             }
         });
         website.setOnClickListener(new View.OnClickListener() {
@@ -123,10 +130,12 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
         // Set the theme color for the list item
         View textContainer = listItemView.findViewById(R.id.text_container);
+
         // Find the color that the resource ID maps to
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
+
 
 
         return listItemView;
