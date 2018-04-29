@@ -18,72 +18,44 @@
     <!-- Food, Places, Reside, Entertainment Strings -->
     <string name="zrno_name">Zrno</string>
     <string name="vegan1">Vegan</string>
-    <string name="location1">https://www.google.com/maps/place/Meduli%C4%87eva+ul.+20,+10000,+Zagreb/@45.8110908,15.9645449,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6e478a624b1:0xe994e71c998e1776!8m2!3d45.8110871!4d15.9667336</string>
-    <string name="web1">http://www.zrnobiobistro.hr/?gclid=CjwKCAjwzoDXBRBbEiwAGZRIeBMxXkSVdGYImw7wnQkXIS29De8wjx_2WK5orfh6WyOBNHrPj8rfnBoCTyIQAvD_BwE</string>
-
     <string name="green_point">Green Point</string>
     <string name="vegan2">Vegan</string>
-    <string name="location2">https://goo.gl/maps/di3cGBLPLGC2</string>
-    <string name="web2">http://green-point.hr/hr/ </string>
-
-
-
     <string name="nishta">Nishta</string>
     <string name="vegan3">Vegan</string>
-    <string name="location3">https://www.google.com/maps/place/Masarykova+ul.+11,+10000,+Zagreb/@45.8107064,15.9706546,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fc855d769b:0x886e8d5ec3100b7a!8m2!3d45.8107027!4d15.9728433</string>
-    <string name="web3">https://www.jutarnji.hr/dobrahrana/price/restoran-nishta-kreativno-vegetarijanstvo-kojem-treba-malo-nove-energije/5392267/</string>
     <string name="vegehop">Vegehop</string>
     <string name="vegan4">Vegan</string>
-    <string name="location4">https://www.google.com/maps/place/Vla%C5%A1ka+ul.+79,+10000,+Zagreb/@45.8139155,15.9863469,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d7aadc4be5d1:0xd8ece2e3b341a78b!8m2!3d45.8139118!4d15.9885356</string>
-    <string name="web4">https://vegehop.hr/</string>
     <string name="vinodol">Vinodol</string>
     <string name="mediterranean">Mediterranean</string>
-    <string name="location5">https://www.google.com/maps/place/Ul.+Nikole+Tesle+10,+10000,+Zagreb/@45.811344,15.9733036,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fc40d44d37:0x78510bf04da28d0b!8m2!3d45.8113403!4d15.9754924</string>
-    <string name="web5">http://www.vinodol-zg.hr/</string>
     <string name="hnk">HNK</string>
     <string name="theater1">Theater</string>
-    <string name="location22">https://www.google.com/maps/place/Trg+Republike+Hrvatske+15,+10000,+Zagreb/@45.8096435,15.9678209,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fb4bbdeb6b:0x6f71d6cc4d59edf9!8m2!3d45.8096398!4d15.9700097  </string>
-    <string name="web22">https://www.hnk.hr/hr/</string>
     <string name="art">Art Pavilion</string>
     <string name="museum1">Museum</string>
-    <string name="location23">https://www.google.com/maps/place/Trg+kralja+Tomislava+22,+10000,+Zagreb/@45.8072133,15.9764179,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6f8fe8badb7:0x35cc811623b86f5d!8m2!3d45.8072096!4d15.9786066</string>
-    <string name="web23">http://www.umjetnicki-paviljon.hr</string>
     <string name="mimara">Mimara</string>
     <string name="museum2">Museum</string>
-    <string name="location24">https://www.google.com/maps/place/Rooseveltov+trg+5,+10000,+Zagreb/@45.8082042,15.9650389,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6e5189e0465:0x3b3593c35b747b1a!8m2!3d45.8082005!4d15.9672276</string>
-    <string name="web24">www.mimara.hr/</string>
     <string name="arhiv">Cro Archive</string>
     <string name="arhiv1">Archive</string>
-    <string name="location25">https://www.google.com/maps/place/Hrvatski+dr%C5%BEavni+arhiv/@45.8063188,15.9679618,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fa7fa1ccb7:0x50e7614a7f33908!8m2!3d45.8063151!4d15.9701505</string>
-    <string name="web25">http://www.arhiv.hr/hr-hr//</string>
     <string name="garden">ZG Garden</string>
     <string name="garden1">Garden</string>
-    <string name="location26">https://www.google.com/maps/place/Trg+Marka+Maruli%C4%87a+9A,+10000,+Zagreb/@45.8053572,15.9675094,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6f07060399b:0x319fa83e7ef71b22!8m2!3d45.8053535!4d15.9696981</string>
-    <string name="web26">http://botanickivrt.biol.pmf.hr//</string>
     <string name="westin_reside">Westin</string>
     <string name="hotel1">Hotel</string>
-    <string name="location33">https://www.google.com/maps/search/Krsnjavoga+1,+Zagreb/@45.8073259,15.9632643,17z/data=!3m1!4b1</string>
-    <string name="web33">http://www.westinzagreb.com/</string>
     <string name="dubrovnik">Dubrovnik</string>
     <string name="hotel2">Hotel</string>
-    <string name="location34">https://www.google.com/maps/place/Gajeva+ul.+1,+10000,+Zagreb/@45.8126747,15.9743014,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fdc81fe457:0x5839523aa5741292!8m2!3d45.812671!4d15.9764901</string>
-    <string name="web34">https://hotel-dubrovnik.hr/hr/</string>
     <string name="esplanada">Esplanada</string>
     <string name="hotel3">Hotel</string>
-    <string name="location35">https://www.google.com/maps/place/Ul.+Antuna+Mihanovi%C4%87a+1,+10000,+Zagreb/@45.8054723,15.9737187,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6f9dd211d45:0x61cf47dbe1fb32aa!8m2!3d45.8054686!4d15.9759074</string>
-    <string name="web35">https://www.esplanade.hr/hr/mainpage.html</string>
     <string name="sheraton">Sheraton</string>
     <string name="hotel4">Hotel</string>
-    <string name="location36">https://www.google.com/maps/place/Ul.+kneza+Borne+2,+10000,+Zagreb/@45.8076448,15.9823321,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d65665fe0acf:0x339b2a8aefe28e94!8m2!3d45.8076411!4d15.9845208</string>
-    <string name="web36">http://www.sheratonzagreb.com/</string>
     <string name="gardenh">Garden</string>
     <string name="hotel5">Hotel</string>
-    <string name="location37">https://goo.gl/maps/NAFAEaGMeQR2</string>
-    <string name="web37">http://www.gardenhotel.hr/</string>
-
     <string name="alcatraz">Alcatraz</string>
     <string name="bar1">Bar</string>
-    <string name="location44">https://www.google.com/maps/place/Preradovi%C4%87eva+ul.+12,+10000,+Zagreb/@45.8106735,15.9720321,17z/data=!3m1!4b1!4m5!3m4!1s0x4765d6fc64c51c3d:0x92a7166c3b2b2496!8m2!3d45.8106698!4d15.9742208</string>
-    <string name="web44">https://www.facebook.com/CaffeBarAlcatrazZagreb/</string>
+    <string name="movie">Movie Pub</string>
+    <string name="pub1">Pub</string>
+    <string name="sokol">Sokol</string>
+    <string name="club1">Club</string>
+    <string name="vintage">Vintage</string>
+    <string name="pub2">Pub</string>
+    <string name="punks">Punks</string>
+    <string name="pub3">Pub</string>
+
 
 </resources>

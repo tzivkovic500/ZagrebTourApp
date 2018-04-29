@@ -28,11 +28,11 @@ public class PlacesFragment extends Fragment {
 
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.hnk, R.string.hnk, R.string.theater1, String.valueOf(R.string.location22),String.valueOf(R.string.web22)));
-        tour.add(new Tour(R.drawable.art, R.string.art, R.string.museum1, String.valueOf(R.string.location23),String.valueOf(R.string.web23)));
-        tour.add(new Tour(R.drawable.mimara, R.string.mimara, R.string.museum2, String.valueOf(R.string.location24),String.valueOf(R.string.web24)));
-        tour.add(new Tour(R.drawable.arhiv, R.string.arhiv, R.string.arhiv1, String.valueOf(R.string.location25),String.valueOf(R.string.web25)));
-        tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.garden1, String.valueOf(R.string.location26),String.valueOf(R.string.web26)));
+        tour.add(new Tour(R.drawable.hnk, R.string.hnk, R.string.theater1, String.valueOf("https://goo.gl/maps/Ti8RSh8yt752"),String.valueOf("https://www.hnk.hr/hr/")));
+        tour.add(new Tour(R.drawable.art, R.string.art, R.string.museum1, String.valueOf("https://goo.gl/maps/9TjJJrY6RyF2"),String.valueOf("http://www.umjetnicki-paviljon.hr")));
+        tour.add(new Tour(R.drawable.mimara, R.string.mimara, R.string.museum2, String.valueOf("https://goo.gl/maps/LYrUx5RkApy"),String.valueOf("www.mimara.hr/")));
+        tour.add(new Tour(R.drawable.arhiv, R.string.arhiv, R.string.arhiv1, String.valueOf("https://goo.gl/maps/4norjxjpY8Q2"),String.valueOf("http://www.arhiv.hr/hr-hr//")));
+        tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.garden1, String.valueOf("https://goo.gl/maps/mdivU6R6myB2"),String.valueOf("http://botanickivrt.biol.pmf.hr//")));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.

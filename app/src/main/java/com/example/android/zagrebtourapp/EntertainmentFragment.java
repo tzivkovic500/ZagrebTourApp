@@ -29,9 +29,11 @@ public class EntertainmentFragment extends Fragment {
 
         // Create a list of tour
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.alcatraz, R.string.alcatraz, R.string.bar1, String.valueOf(R.string.location44),String.valueOf(R.string.web44)));
-
-
+        tour.add(new Tour(R.drawable.alcatraz, R.string.alcatraz, R.string.bar1, String.valueOf("https://goo.gl/maps/Ttm6uZQWBpC2"),String.valueOf("https://www.facebook.com/CaffeBarAlcatrazZagreb/")));
+        tour.add(new Tour(R.drawable.movie_pub, R.string.movie, R.string.pub1, String.valueOf("https://goo.gl/maps/FwAVeMh7ZP42"),String.valueOf("https://www.facebook.com/themoviepub/")));
+        tour.add(new Tour(R.drawable.sokol, R.string.sokol, R.string.club1, String.valueOf("https://goo.gl/maps/mh1SBg1fwrA2"),String.valueOf("https://www.facebook.com/SOKOL-KLUB-65185621696/")));
+        tour.add(new Tour(R.drawable.vintage, R.string.vintage, R.string.pub2, String.valueOf("https://goo.gl/maps/Kfubj6RJsUt"),String.valueOf("https://www.facebook.com/vintageindbar/")));
+        tour.add(new Tour(R.drawable.punks, R.string.punks, R.string.pub3, String.valueOf("https://goo.gl/maps/B92fbjTqiCH2"),String.valueOf("https://www.facebook.com/pubnakrajusvijeta/")));
 
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.

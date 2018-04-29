@@ -3,6 +3,7 @@ package com.example.android.zagrebtourapp;
 
 import android.content.Context;
 import android.content.Intent;
+import android.location.Location;
 import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.content.ContextCompat;
@@ -110,21 +111,21 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-               /*Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(currentTour.getLocationId()));
-                getContext().startActivity(i);*/
-               Uri gmmIntentUri = Uri.parse(currentTour.getLocationId());
-               Intent mapIntent = new Intent (Intent.ACTION_VIEW, gmmIntentUri);
+                Uri gmmIntentUri = Uri.parse(currentTour.getLocationId());
+                Intent mapIntent = new Intent (Intent.ACTION_VIEW, gmmIntentUri);
                 mapIntent.setPackage("com.google.android.apps.maps");
                 startActivity(getContext(),mapIntent, Bundle.EMPTY);
-            }
-        });
+
+                    }
+                });
+
         website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(Intent.ACTION_VIEW);
-                i.setData(Uri.parse(currentTour.getUrlId()));
-                getContext().startActivity(i);
+                Uri iIntentUri = Uri.parse(currentTour.getUrlId());
+                Intent i = new Intent(Intent.ACTION_VIEW, iIntentUri);
+                startActivity(getContext(),i, Bundle.EMPTY);
+
             }
         });
 

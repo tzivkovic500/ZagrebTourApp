@@ -22,5 +22,6 @@
 
     <!-- Background color for the phrases category -->
     <color name="category_entertainment">#16AFCA</color>
+    <color name="tan_background">#FFF7DA</color>
 
 </resources>
