@@ -40,8 +40,6 @@ public class CategoryAdapter extends FragmentPagerAdapter{
         }
     }
 
-
-
     /**
      * Return the total number of pages.
      */

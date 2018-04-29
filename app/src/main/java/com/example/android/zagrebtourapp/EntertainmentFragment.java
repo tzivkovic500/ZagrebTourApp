@@ -16,7 +16,6 @@ import java.util.ArrayList;
  */
 public class EntertainmentFragment extends Fragment {
 
-
     public EntertainmentFragment() {
 
     }
@@ -26,8 +25,7 @@ public class EntertainmentFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
-
-        // Create a list of tour
+        // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour(R.drawable.alcatraz, R.string.alcatraz, R.string.bar1, String.valueOf("https://goo.gl/maps/Ttm6uZQWBpC2"),String.valueOf("https://www.facebook.com/CaffeBarAlcatrazZagreb/")));
         tour.add(new Tour(R.drawable.movie_pub, R.string.movie, R.string.pub1, String.valueOf("https://goo.gl/maps/FwAVeMh7ZP42"),String.valueOf("https://www.facebook.com/themoviepub/")));
@@ -44,14 +42,9 @@ public class EntertainmentFragment extends Fragment {
         // tour_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-
         // Make the {@link ListView} use the {@link TourAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Tour} in the list.
         listView.setAdapter(adapter);
-
-
-
-
 
         return rootView;
 

@@ -25,12 +25,11 @@ public class PlacesFragment extends Fragment {
                              Bundle savedInstanceState) {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
-
-        // Create a list of tour
+        // Create a list of places to visit
         final ArrayList<Tour> tour = new ArrayList<Tour>();
         tour.add(new Tour(R.drawable.hnk, R.string.hnk, R.string.theater1, String.valueOf("https://goo.gl/maps/Ti8RSh8yt752"),String.valueOf("https://www.hnk.hr/hr/")));
         tour.add(new Tour(R.drawable.art, R.string.art, R.string.museum1, String.valueOf("https://goo.gl/maps/9TjJJrY6RyF2"),String.valueOf("http://www.umjetnicki-paviljon.hr")));
-        tour.add(new Tour(R.drawable.mimara, R.string.mimara, R.string.museum2, String.valueOf("https://goo.gl/maps/LYrUx5RkApy"),String.valueOf("www.mimara.hr/")));
+        tour.add(new Tour(R.drawable.mimara, R.string.mimara, R.string.museum2, String.valueOf("https://goo.gl/maps/LYrUx5RkApy"),String.valueOf("http://www.mimara.hr/")));
         tour.add(new Tour(R.drawable.arhiv, R.string.arhiv, R.string.arhiv1, String.valueOf("https://goo.gl/maps/4norjxjpY8Q2"),String.valueOf("http://www.arhiv.hr/hr-hr//")));
         tour.add(new Tour(R.drawable.garden, R.string.garden, R.string.garden1, String.valueOf("https://goo.gl/maps/mdivU6R6myB2"),String.valueOf("http://botanickivrt.biol.pmf.hr//")));
 
@@ -43,14 +42,9 @@ public class PlacesFragment extends Fragment {
         // tour_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-
         // Make the {@link ListView} use the {@link TourAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Tour} in the list.
         listView.setAdapter(adapter);
-
-
-
-
 
         return rootView;
 

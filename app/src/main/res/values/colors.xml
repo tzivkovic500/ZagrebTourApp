@@ -5,23 +5,17 @@
     <color name="colorPrimaryDark">#24b2b7</color>
     <color name="colorAccent">#ffc831</color>
     <color name="colorTextPrimary">#212121</color>
-    <color name="colorTextSecondary">#757575</color>
-    <color name="colorTextBlue">#558ff2</color>
-    <color name="ratigBarEmpty">#F5F5F5</color>
+    <!-- Main LinearLayout background color -->
+    <color name="tan_background">#FFF7DA</color>
     <color name="colorIconsText">#FFFFFF</color>
     <color name="titleColor">#FFFFFF</color>
-    <color name="tabBackground">#FFFFFF</color>
-    <!-- Background color for the numbers category -->
+    <!-- Background color for the food category -->
     <color name="category_food">#FD8E09</color>
-
-    <!-- Background color for the family members category -->
+    <!-- Background color for the places category -->
     <color name="category_places">#379237</color>
-
-    <!-- Background color for the colors category -->
+    <!-- Background color for the reside category -->
     <color name="category_reside">#8800A0</color>
-
-    <!-- Background color for the phrases category -->
+    <!-- Background color for the entertainment category -->
     <color name="category_entertainment">#16AFCA</color>
-    <color name="tan_background">#FFF7DA</color>
 
 </resources>

@@ -7,22 +7,17 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    <!-- ImageView common style -->
-    <style name="imageViewStyle">
+    <!-- Style for Layout-->
+    <style name="layout_style1">
         <item name="android:layout_width">match_parent</item>
         <item name="android:layout_height">match_parent</item>
-        <item name="android:scaleType">centerCrop</item>
     </style>
-    <style name="resideBottomImageViews">
-        <item name="android:layout_width">16dp</item>
-        <item name="android:layout_height">16dp</item>
-        <item name="android:tint">@color/titleColor</item>
+    <!-- Style for Layout-->
+    <style name="layout_style2">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">match_parent</item>
     </style>
-    <style name="icon_image_style">
-        <item name="android:layout_width">@dimen/icon_image_size</item>
-        <item name="android:layout_height">@dimen/icon_image_size</item>
-        <item name="android:tint">@color/titleColor</item>
-    </style>
+    <!-- Style for  Collapsed/Expanded Layout-->
     <style name="place_info_layout_style">
         <item name="android:layout_width">@dimen/nullSize</item>
         <item name="android:layout_height">wrap_content</item>
@@ -31,19 +26,18 @@
         <item name="android:orientation">vertical</item>
         <item name="android:gravity">center</item>
     </style>
+    <!-- TextView style in Collapsed/Expanded Layout -->
     <style name="place_info_text_style">
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/titleColor</item>
         <item name="android:layout_marginTop">@dimen/food_text_margin_top</item>
     </style>
-    <style name="text_view_style">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:textColor">@color/titleColor</item>
-        <item name="android:layout_gravity">center</item>
+    <!-- ImageView style in Collapsed/Expanded Layout-->
+    <style name="icon_image_style">
+        <item name="android:layout_width">@dimen/icon_image_size</item>
+        <item name="android:layout_height">@dimen/icon_image_size</item>
+        <item name="android:tint">@color/titleColor</item>
     </style>
-
-
 
 </resources>

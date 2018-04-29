@@ -3,16 +3,12 @@
 
     <!-- Category name for food-->
     <string name="category_food">Food</string>
-
     <!-- Category name for the places -->
     <string name="category_places">Places</string>
-
     <!-- Category name for the reside-->
     <string name="category_reside">Reside</string>
-
     <!-- Category name for the entertainment -->
     <string name="category_entertainment">Entertainment</string>
-
     <string name="place_location">Location</string>
 
     <!-- Food, Places, Reside, Entertainment Strings -->
@@ -56,6 +52,4 @@
     <string name="pub2">Pub</string>
     <string name="punks">Punks</string>
     <string name="pub3">Pub</string>
-
-
 </resources>

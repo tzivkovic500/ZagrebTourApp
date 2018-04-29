@@ -40,12 +40,8 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         super(context, 0, tour);
         mColorResourceId = colorResourceId;
     }// Get the {@link Tour} object located at this position in the list
-
-
-
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-
 
         // Check if an existing view is being reused, otherwise inflate the view
         View listItemView = convertView;
@@ -53,7 +49,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
             listItemView = LayoutInflater.from(getContext()).inflate(
                     R.layout.list_item, parent, false);
         }
-
 
 
         // Return the whole list item layout (containing 2 TextViews) so that it can be shown in
@@ -82,7 +77,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         });
 
 
-
         // Find the ImageView in the list_item.xml layout with the ID image_view.
         ImageView imageView = (ImageView) listItemView.findViewById(R.id.image);
 
@@ -92,7 +86,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         // Find the TextView in the list_item.xml layout with the ID info_text_view.
         TextView infoTextView = (TextView) listItemView.findViewById(R.id.place_info);
 
-
         // Find the location in the list_item.xml layout with the ID location.
         LinearLayout location = listItemView.findViewById(R.id.location);
 
@@ -101,13 +94,9 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
 
         imageView.setImageResource(currentTour.getImageResourceId());
-
-
         defaultTextView.setText(currentTour.getTextResourceId());
-
-
         infoTextView.setText(currentTour.getTextInfoId());
-
+        // When location icon is clicked, shows location on google maps.
         location.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -118,7 +107,7 @@ public class TourAdapter extends ArrayAdapter<Tour> {
 
                     }
                 });
-
+         // When web icon is clicked, shows web page.
         website.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -136,8 +125,6 @@ public class TourAdapter extends ArrayAdapter<Tour> {
         int color = ContextCompat.getColor(getContext(), mColorResourceId);
         // Set the background color of the text container View
         textContainer.setBackgroundColor(color);
-
-
 
         return listItemView;
     }

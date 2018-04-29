@@ -25,7 +25,7 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
 
 
-        // Create a list of tour
+        // // Create a list of  places to eat
         final ArrayList<Tour> tour = new ArrayList<Tour>();
 
         tour.add(new Tour(R.drawable.zrno, R.string.zrno_name, R.string.vegan1, String.valueOf("https://goo.gl/maps/T6qK8TKWUf42"),String.valueOf("http://www.zrnobiobistro.hr/")));
@@ -43,14 +43,9 @@ public class FoodFragment extends Fragment {
         // tour_list.xml layout file.
         ListView listView = (ListView) rootView.findViewById(R.id.list);
 
-
         // Make the {@link ListView} use the {@link TourAdapter} we created above, so that the
         // {@link ListView} will display list items for each {@link Tour} in the list.
         listView.setAdapter(adapter);
-
-
-
-
 
         return rootView;
 
