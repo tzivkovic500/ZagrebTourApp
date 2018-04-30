@@ -3,16 +3,12 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.app.Fragment;
 import android.app.FragmentManager;
 import android.content.Context;
-
 /**
  * Created by Tea on 25.4.2018..
  */
-
 public class CategoryAdapter extends FragmentPagerAdapter{
-
     /** Context of the app */
     private Context mContext;
-
     /**
      * Create a new {@link CategoryAdapter} object.
      *
@@ -39,7 +35,6 @@ public class CategoryAdapter extends FragmentPagerAdapter{
             return new EntertainmentFragment();
         }
     }
-
     /**
      * Return the total number of pages.
      */
@@ -57,8 +52,6 @@ public class CategoryAdapter extends FragmentPagerAdapter{
             return mContext.getString(R.string.category_reside);
         } else {
             return mContext.getString(R.string.category_entertainment);
-
         }
     }
-
 }

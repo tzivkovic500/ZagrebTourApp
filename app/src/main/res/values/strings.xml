@@ -10,10 +10,11 @@
     <!-- Category name for the entertainment -->
     <string name="category_entertainment">Entertainment</string>
     <string name="place_location">Location</string>
-
     <!-- Food, Places, Reside, Entertainment Strings -->
     <string name="zrno_name">Zrno</string>
     <string name="vegan1">Vegan</string>
+    <string name="loc1">https://goo.gl/maps/T6qK8TKWUf42</string>
+    <string name="web1">http://www.zrnobiobistro.hr/</string>
     <string name="green_point">Green Point</string>
     <string name="vegan2">Vegan</string>
     <string name="nishta">Nishta</string>
