@@ -63,7 +63,7 @@
                 android:layout_alignParentRight="true"
                 android:layout_centerVertical="true"
                 android:layout_marginRight="16dp"
-                android:src="@drawable/ic_info_white_24dp"  />
+                android:src="@drawable/ic_info_white"  />
 
         </RelativeLayout>
     </FrameLayout>
@@ -83,7 +83,7 @@
 
             <ImageView
                 style="@style/icon_image_style"
-                android:src="@drawable/ic_location_on_white_24dp" />
+                android:src="@drawable/ic_location_on_white" />
 
             <TextView
                 android:id="@+id/test_info"
@@ -97,7 +97,7 @@
 
             <ImageView
                 style="@style/icon_image_style"
-                android:src="@drawable/ic_open_in_browser_white_24dp" />
+                android:src="@drawable/ic_open_in_browser_white" />
 
             <TextView
                 style="@style/place_info_text_style"
@@ -110,7 +110,7 @@
 
             <ImageView
                 style="@style/icon_image_style"
-                android:src="@drawable/ic_arrow_back_white_24dp" />
+                android:src="@drawable/ic_arrow_back_white" />
 
             <TextView
                 style="@style/place_info_text_style"
