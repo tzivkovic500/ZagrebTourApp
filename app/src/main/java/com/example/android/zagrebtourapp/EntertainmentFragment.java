@@ -18,11 +18,11 @@ public class EntertainmentFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of entertainment places
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.alcatraz1, R.string.alcatraz, R.string.bar1, String.valueOf("https://goo.gl/maps/Ttm6uZQWBpC2"),String.valueOf("https://www.facebook.com/CaffeBarAlcatrazZagreb/")));
-        tour.add(new Tour(R.drawable.movie_pub1, R.string.movie, R.string.pub1, String.valueOf("https://goo.gl/maps/FwAVeMh7ZP42"),String.valueOf("https://www.facebook.com/themoviepub/")));
-        tour.add(new Tour(R.drawable.sokol1, R.string.sokol, R.string.club1, String.valueOf("https://goo.gl/maps/mh1SBg1fwrA2"),String.valueOf("https://www.facebook.com/SOKOL-KLUB-65185621696/")));
-        tour.add(new Tour(R.drawable.vintage1, R.string.vintage, R.string.pub2, String.valueOf("https://goo.gl/maps/Kfubj6RJsUt"),String.valueOf("https://www.facebook.com/vintageindbar/")));
-        tour.add(new Tour(R.drawable.punks1, R.string.punks, R.string.pub3, String.valueOf("https://goo.gl/maps/B92fbjTqiCH2"),String.valueOf("https://www.facebook.com/pubnakrajusvijeta/")));
+        tour.add(new Tour(R.drawable.alcatraz1, R.string.alcatraz, R.string.bar1, getString(R.string.loc21),getString(R.string.web21)));
+        tour.add(new Tour(R.drawable.movie_pub1, R.string.movie, R.string.pub1, getString(R.string.loc22),getString(R.string.web22)));
+        tour.add(new Tour(R.drawable.sokol1, R.string.sokol, R.string.club1, getString(R.string.loc23),getString(R.string.web23)));
+        tour.add(new Tour(R.drawable.vintage1, R.string.vintage, R.string.pub2, getString(R.string.loc24),getString(R.string.web24)));
+        tour.add(new Tour(R.drawable.punks1, R.string.punks, R.string.pub3, getString(R.string.loc25),getString(R.string.web25)));
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_entertainment);

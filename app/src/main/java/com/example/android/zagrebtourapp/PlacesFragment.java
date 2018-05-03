@@ -18,11 +18,11 @@ public class PlacesFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // Create a list of places to visit
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.hnk1, R.string.hnk, R.string.theater1, String.valueOf("https://goo.gl/maps/Ti8RSh8yt752"),String.valueOf("https://www.hnk.hr/hr/")));
-        tour.add(new Tour(R.drawable.art1, R.string.art, R.string.museum1, String.valueOf("https://goo.gl/maps/9TjJJrY6RyF2"),String.valueOf("http://www.umjetnicki-paviljon.hr")));
-        tour.add(new Tour(R.drawable.mimara1, R.string.mimara, R.string.museum2, String.valueOf("https://goo.gl/maps/LYrUx5RkApy"),String.valueOf("http://www.mimara.hr/")));
-        tour.add(new Tour(R.drawable.arhiv1, R.string.arhiv, R.string.arhiv1, String.valueOf("https://goo.gl/maps/4norjxjpY8Q2"),String.valueOf("http://www.arhiv.hr/hr-hr//")));
-        tour.add(new Tour(R.drawable.garden1, R.string.garden, R.string.garden1, String.valueOf("https://goo.gl/maps/mdivU6R6myB2"),String.valueOf("http://botanickivrt.biol.pmf.hr//")));
+        tour.add(new Tour(R.drawable.hnk1, R.string.hnk, R.string.theater1, getString(R.string.loc11),getString(R.string.web11)));
+        tour.add(new Tour(R.drawable.art1, R.string.art, R.string.museum1, getString(R.string.loc12),getString(R.string.web12)));
+        tour.add(new Tour(R.drawable.mimara1, R.string.mimara, R.string.museum2, getString(R.string.loc13),getString(R.string.web13)));
+        tour.add(new Tour(R.drawable.arhiv1, R.string.arhiv, R.string.arhiv1, getString(R.string.loc14),getString(R.string.web14)));
+        tour.add(new Tour(R.drawable.garden1, R.string.garden, R.string.garden1, getString(R.string.loc15),getString(R.string.web15)));
         // Create an {@link TourAdapter}, whose data source is a list of {@link Word}s. The
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_places);

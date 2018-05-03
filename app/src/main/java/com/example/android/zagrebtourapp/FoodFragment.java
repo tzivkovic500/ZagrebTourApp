@@ -18,11 +18,11 @@ public class FoodFragment extends Fragment {
         View rootView = inflater.inflate(R.layout.tour_list, container, false);
         // // Create a list of  places to eat
         final ArrayList<Tour> tour = new ArrayList<Tour>();
-        tour.add(new Tour(R.drawable.zrno1, R.string.zrno_name, R.string.vegan1, String.valueOf(R.string.loc1),String.valueOf(R.string.web1)));
-        tour.add(new Tour(R.drawable.green_point1, R.string.green_point, R.string.vegan2, String.valueOf("https://goo.gl/maps/di3cGBLPLGC2"),String.valueOf("http://green-point.hr/hr/")));
-        tour.add(new Tour(R.drawable.nishta1, R.string.nishta, R.string.vegan3, String.valueOf("https://goo.gl/maps/YztTwqeURxK2"),String.valueOf("https://www.jutarnji.hr/dobrahrana/price/restoran-nishta-kreativno-vegetarijanstvo-kojem-treba-malo-nove-energije/5392267/")));
-        tour.add(new Tour(R.drawable.vegehop1, R.string.vegehop, R.string.vegan4, String.valueOf("https://goo.gl/maps/f6RUVbz5DHu"),String.valueOf("https://vegehop.hr/")));
-        tour.add(new Tour(R.drawable.vindol1, R.string.vinodol, R.string.mediterranean, String.valueOf("https://goo.gl/maps/nGNEqtt87qM2"),String.valueOf("http://www.vinodol-zg.hr/")));
+        tour.add(new Tour(R.drawable.zrno1, R.string.zrno_name, R.string.vegan1, getString(R.string.loc1),getString(R.string.web1)));
+        tour.add(new Tour(R.drawable.green_point1, R.string.green_point, R.string.vegan2, getString(R.string.loc2),getString(R.string.web2)));
+        tour.add(new Tour(R.drawable.nishta1, R.string.nishta, R.string.vegan3, getString(R.string.loc3),getString(R.string.web3)));
+        tour.add(new Tour(R.drawable.vegehop1, R.string.vegehop, R.string.vegan4, getString(R.string.loc4),getString(R.string.web4)));
+        tour.add(new Tour(R.drawable.vindol1, R.string.vinodol, R.string.mediterranean, getString(R.string.loc5),getString(R.string.web5)));
         // Create an {@link TourAdapter}, whose data source is a list of {@link Tour}s. The
         // adapter knows how to create list items for each item in the list.
         TourAdapter adapter = new TourAdapter(getActivity(), tour, R.color.category_food);
